@@ -9,7 +9,11 @@
     <h1>JavaScript Arrays</h1>
 
     <script>
-// your code goes here
+    	var userInput = prompt("Please enter three things you are exicted about for MEET");
+
+    	var res = userInput.split(", ").sort();
+
+    	document.write(res.join(", "))
     </script>
 </body>
 
